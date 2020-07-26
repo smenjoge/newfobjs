@@ -12,10 +12,10 @@ function ResultTable(props) {
                         <thead className="thead-dark">
                             <tr>
                                 <th scope="col">Image</th>
-                                <th scope="col" onClick={() => sortColumn("Name")}>Name</th>
+                                <th scope="col" onClick={() => sortColumn("Name")}>Name  <i class="fa fas fa-sort"></i></th>
                                 <th scope="col">Phone</th>
                                 <th scope="col">E-mail</th>
-                                <th scope="col" onClick={() => sortColumn("DOB")}>DOB</th>
+                                <th scope="col" onClick={() => sortColumn("DOB")}>DOB  <i class="fa fas fa-sort"></i></th>
                             </tr>
                         </thead>
                         <tbody>

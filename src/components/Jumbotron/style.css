@@ -1,0 +1,9 @@
+.jumbotron-fluid {
+    background-color: rgb(5, 5, 70);
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-bottom: 5px solid red;
+}
